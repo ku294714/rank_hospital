@@ -28,8 +28,18 @@ be excluded from the set of hospitals when deciding the rankings.
 
 #### Handling ties. 
 
-It may occur that multiple hospitals have the same 30-day mortality rate for a given cause of death. In those cases ties should be broken by using the hospital name. For example, in Texas (“TX”),
-the hospitals with lowest 30-day mortality rate for heart failure are shown here.
+It may occur that multiple hospitals have the same 30-day mortality rate for a given cause of death. In those cases ties should be broken by using the hospital name. For example, in Texas (“TX”), the hospitals with lowest 30-day mortality rate for heart failure are shown here.
+
+```
+> head(texas)
+        Hospital.Name                       Rate    Rank
+3935    FORT DUNCAN MEDICAL CENTER          8.1     1
+4085    TOMBALL REGIONAL MEDICAL CENTER     8.5     2
+4103    CYPRESS FAIRBANKS MEDICAL CENTER    8.7     3
+3954    DETAR HOSPITAL NAVARRO              8.7     4
+4010    METHODIST HOSPITAL,THE              8.8     5
+3962    MISSION REGIONAL MEDICAL CENTER     8.8     6
+
 
 The function should use the following template:
 
