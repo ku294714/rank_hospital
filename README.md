@@ -1,6 +1,6 @@
 # rankhospital.R
 
-## Introduction.
+## Introduction
 
 Download the ﬁle ProgAssignment3-data.zip ﬁle containing the data for Programming Assignment 3 from the Coursera web site. Unzip the ﬁle in a directory that will serve as your working directory. When you start up R make sure to change your working directory to the directory where you unzipped the data.
 
